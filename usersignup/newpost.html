@@ -1,0 +1,20 @@
+<html>
+		<head>
+			<title>Blog Page</title>
+		</head>
+		<body>
+		<h2>New Post</h2>
+			<form method="post">
+			<label> Title
+			<input type = "text" name="blogtitle" value="{{title}}">
+			{{error_title}}</label>
+			<br>	
+			Blog
+			<br>
+			<textarea name="blogbody"></textarea>
+			{{error_post}}
+			<br>
+			<input type="submit" value="Sign Up!!">
+			</form>
+		</body>
+</html>

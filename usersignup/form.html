@@ -1,0 +1,28 @@
+<html>
+		<head>
+			<title>Signup Page</title>
+			<link rel="stylesheet" href="foundation.css" /> 
+		</head>
+		<body>
+		<h2>Signup</h2>
+		<form method="post">
+		<label> Username
+		<input type = "text" name="user" value="{{username}}">
+		{{error_username}}</label>
+		<br>
+		<label> Password
+		<input type = "password" name="pass">
+		{{error_password}}</label>
+		<br>
+		<label> Verify Password
+		<input type = "password" name="verpass">
+		{{error_verify}}</label>
+		<br>
+		<label> Email(optional)
+		<input type = "text" name="email" value="{{email}}">
+		{{error_email}}</label>
+		<br>
+		<input type="submit" value="Sign Up!!">
+		</form>
+		</body>
+</html>

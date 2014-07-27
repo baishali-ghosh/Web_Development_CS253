@@ -1,0 +1,4 @@
+1. Validate input fields via individual functions.
+2. Preserve user's entered username in the event form is returned due to incorrect input.
+3. Form should not be accepted without entering both username and password. Display appropriate error messages.
+4. Form should not be accepted without password verification.
